@@ -55,3 +55,92 @@ body {
     cursor: pointer;
     margin-left: 25%;
 }
+
+.mycontact {
+    border: 1px solid #777;
+    padding: 30px;
+    margin: 10px;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    background-color: powderblue;
+}
+.email {
+    color: darkmagenta;
+    box-shadow: 0px 1px 2px whitesmoke;
+    width: 100%;
+    padding: 7px;
+    background-color: pink;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    &:after {
+        content: "Email:123@example.com";
+        font-family: cursive;
+        padding-left: 10px;
+    }
+}
+.address {
+    color: darkcyan;
+    box-shadow: 0px 1px 2px whitesmoke;
+    width: 100%;
+    padding: 7px;
+    background-color: #777;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    &:after {
+        content: "Address: Yangon";
+        font-family: cursive;
+        padding-left: 10px;
+        color: darkred;
+        /* background-color: aqua; */
+    }
+    &:before {
+        /* border: 1px solid ; */
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(173, 117, 117);
+        width: 20px;
+        height: 20px;
+        /* border-radius: 50%; */
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px;
+        background-color: yellowgreen;
+    }
+}
+.telephone {
+    color: lavender;
+    box-shadow: 0px 1px 2px darkorange;
+    width: 100%;
+    padding: 7px;
+    background-color: darkkhaki;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    &:after {
+        content: "Phone:09979332828";
+        font-family: cursive;
+        padding-left: 10px;
+    }
+}
+.github {
+    color: midnightblue;
+    box-shadow: 0px 1px 2px darkolivegreen;
+    width: 100%;
+    padding: 7px;
+    background-color: palegreen;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    &:after {
+        content: "GitHub:sample.github";
+        font-family: cursive;
+        padding-left: 10px;
+    }
+    &:before {
+        /* border: 1px solid ; */
+        padding: 5px 20px 5px 5px;
+        box-shadow: 0px 1px 2px rgb(173, 117, 117);
+        width: 20px;
+        height: 20px;
+        /* border-radius: 50%; */
+        border-top-left-radius: 50px ;
+        border-bottom-left-radius: 50px;
+        background-color: yellow;
+    }
+}
